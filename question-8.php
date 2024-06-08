@@ -3,7 +3,7 @@
 // ВОПРОС 8
 // Напишите на php функцию для распределения рублевой скидки по купону на все товары в корзине пропорционально стоимости товара. 
 // На входе в функцию передаются два параметра: размер скидки в рублях (!) и массив из цен товаров, на выходе тот же массив цен, 
-//но уже с учетом скидки: distribute_discount(int $discount, array $prices) → return array $prices;
+// но уже с учетом скидки: distribute_discount(int $discount, array $prices) → return array $prices;
 
 function distribute_discount(int $discount, array $prices) {
     // Сумма стоимостей всех товаров в корзине
